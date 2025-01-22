@@ -40,4 +40,5 @@ a:hover {
     width: 70%;
     margin: auto;
     padding: 5px;
+    border-radius: 5px;
 }
