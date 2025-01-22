@@ -1,0 +1,43 @@
+/*Structure*/
+body {
+    background: url(images/MOBvsCropped.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Images*/
+img {
+    border:5px solid brown;
+    padding: 5px;
+}
+
+/*Tables*/
+table   {
+    border: 5px solid brown;
+    background: #ccc6b0;
+}
+
+th {
+    border: 3px solid brown;
+}
+
+/*Navigation*/
+a   {
+    background: burlywood;
+    color: brown;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+a:hover {
+    background: crimson;
+}
+
+/*Content*/
+
+#content    {
+    background: cornsilk;
+    width: 70%;
+    margin: auto;
+    padding: 5px;
+}

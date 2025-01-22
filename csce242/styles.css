@@ -3,6 +3,13 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+#content{
+    background: cornflowerblue;
+    width: 75%;
+    margin: auto;
+    padding: 5px;
+}
+
 /*Navigation*/
 
 a {
