@@ -4,13 +4,12 @@ body{
 }
 
 #content{
-    width:85%;
+    width:70%;
     margin:auto;
 }
 
 #main-content{
     color: brown;
-    
 }
 
 #main-content section{
@@ -41,7 +40,36 @@ body{
 
 }
 
+.idea-img {
+    display:block;
+    margin: auto;
+}
 
+.idea img:nth-child(even) {
+    background: pink;
+}
+
+#main-content:nth-child(even) {
+    background:whitesmoke;
+}
+
+.gallery {
+    background: skyblue;
+
+}
+
+.links {
+    background: pink;
+}
+
+.title {
+    text-align: center;
+    padding: 5px;
+}
+
+.columns {
+    width:100%;
+}
 /*Typography*/
 #main-header h1{
     text-align: center;
@@ -51,9 +79,8 @@ body{
 #main-nav li{
     list-style-type: none;
     background: pink;
-    padding: 5px;
     color: aliceblue;
-    border: 2px solid slategray;
+    border-bottom: 1px solid slategray;
     text-align: center;
 }
 
@@ -70,13 +97,40 @@ body{
 }
 
 /*Larger Resolutions*/
-@media (min-width: 900px){
-    #main-nav ul, 
-    .flex-conatainor{
-        display: flex;
+@media only screen and (min-width: 768px){
+    .columns {
+        display: flex;  
     }
 
-    #main-nav li, .col1of2{
+    #main-nav li {
         flex:1;
+    }
+    #main-nav li:not(:last-child) {
+        border-right: 1px solid slategray;
+    }
+
+    .one {
+        flex:1;
+    }
+
+    .two {
+        flex:2;
+    }
+    
+    .three {
+        flex:3;
+    }
+
+    .gallery {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .tile {
+        flex-basis: 35%;
+    }
+
+    .node {
+        flex-basis: 30%;
     }
 }
