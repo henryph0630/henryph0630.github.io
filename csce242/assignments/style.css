@@ -1,0 +1,86 @@
+body{
+    background:cadetblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+}
+
+#content{
+    background: cornflowerblue;
+    width: 75%;
+    margin: auto;
+    padding: 5px;
+}
+
+#assignment-section {
+    background: cornflowerblue;
+    width: 75%;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#assignment-section a {
+    background: azure;
+    color: burlywood;
+    border-radius: 5px;
+    padding: 4px;
+}
+#assignment-section a:hover {
+    color: brown;
+}
+
+#assignment-section img {
+    border: 5px solid burlywood;
+    border-radius: 5px;
+}
+
+/*Navigation*/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*Typography*/
+
+
+h1 {    
+    color: #FAEBD7;
+}
+
+h2 {
+    color: #FAEBD7;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+p {
+    color: #F5F5DC;
+}
+
+/*Larger Resolution*/
+@media only screen and (min-width: 768px) {
+
+    .columns {
+        display: flex;
+    }
+
+    #assignment-section {
+        margin-right: 20px;
+        margin-left: 20px   ;
+    }
+    
+}
