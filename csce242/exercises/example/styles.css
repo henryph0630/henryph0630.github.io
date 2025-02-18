@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+  }
+  #stairs-container {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 2px solid #000;
+    overflow: hidden;
+  }
+  .stair {
+    width: 100%;
+    height: 20px;
+    background-color: #D3D3D3;
+    position: absolute;
+  }
+  #stick-figure {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    width: 30px;
+    height: 50px;
+    background-image: url('left.png');
+    background-size: cover;
+  }
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .hidden {
+    display: none;
+  }

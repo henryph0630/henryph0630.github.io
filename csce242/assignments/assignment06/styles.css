@@ -1,0 +1,52 @@
+body {
+    background:cadetblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    text-align: center;
+
+    & h1 {    
+        color: #FAEBD7;
+    }
+    
+    & h2 {
+        color: #FAEBD7;
+    }
+    
+    & h3 {
+        color: aliceblue;
+    }
+    
+    & p {
+        color: #F5F5DC;
+    }
+
+    & section {
+        padding: 20px;
+        margin: 20px;
+        border:solid 3px burlywood; 
+    }
+
+    & button {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+#star {
+    font-size: 300pt;
+}
+
+@media only screen and (min-width: 800px) {
+    .column {
+        display: flex;
+        justify-content: center;
+    }
+
+    .one {
+        flex:1;
+    }
+
+    .three {
+        flex: 3;
+    }
+}
