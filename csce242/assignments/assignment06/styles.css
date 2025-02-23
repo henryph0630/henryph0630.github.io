@@ -3,6 +3,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 5px;
     text-align: center;
+    justify-items: center;
 
     & h1 {    
         color: #FAEBD7;
@@ -32,8 +33,35 @@ body {
     }
 }
 
-#star {
-    font-size: 300pt;
+.hidden {
+    & img {
+        display: none;
+    }
+
+    & button {
+        display: none;
+    }
+}
+
+#stairs-container {
+    display:grid;
+    gap:2rem;
+    position: relative;
+    width: 20ch;
+
+    & img {
+        bottom: 0;
+        position: absolute;
+    }
+
+    & hr {
+        border: solid black 7px;
+        width: 93%;
+    }
+}
+
+.railing {
+    border-inline: solid black 4px;
 }
 
 @media only screen and (min-width: 800px) {
