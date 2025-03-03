@@ -1,0 +1,113 @@
+body {
+    background:cadetblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    text-align: center;
+    justify-items: center;
+
+    & h1 {    
+        color: #FAEBD7;
+    }
+    
+    & h2 {
+        color: #FAEBD7;
+    }
+    
+    & h3 {
+        color: aliceblue;
+    }
+    
+    & p {
+        color: #F5F5DC;
+    }
+
+    & section {
+        padding: 20px;
+        margin: 20px;
+        border:solid 3px burlywood; 
+    }
+
+    & button {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    & button {
+        background:none;
+        border:none;
+        margin:0;
+        padding:0;
+        cursor: pointer;
+        color: antiquewhite;
+    }
+
+}
+
+#gallery-item {
+    width: auto;
+    height: auto;
+}
+
+#pop-up {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5%;
+    background: #FAEBD7;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: row;
+
+    & h2 {
+        color: black;
+    }
+
+    & h3 {
+        color:black;
+    }
+
+    & span {
+        font-size: 24px;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: black;
+    }
+
+    and .text-content {
+        flex: 1;
+        max-width: 60%;
+    }
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#pop-up img {
+    height: auto;
+    max-width: 40%;
+    object-fit: contain;
+    border-radius: 5px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+
+.hidden{
+    display: none;
+}
