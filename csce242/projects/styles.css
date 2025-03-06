@@ -75,7 +75,8 @@ p {
 @media only screen and (min-width: 768px) {
 
     .columns {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     #assignment-section {
