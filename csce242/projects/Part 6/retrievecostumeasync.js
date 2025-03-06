@@ -29,9 +29,9 @@ const retrieveCostumesCostumes = async () => {
         h3.innerHTML = `$${item.price}`;
         section.appendChild(h3);
 
-        const h32 = document.createElement("h3");
-        h32.innerHTML = `$${item.size}`;
-        section.appendChild(h32);
+        const h3size = document.createElement("h3");
+        h3size.innerHTML = `${item.Size}`;
+        section.appendChild(h3size);
 
         const p = document.createElement("p");
         p.innerHTML = item.description;
