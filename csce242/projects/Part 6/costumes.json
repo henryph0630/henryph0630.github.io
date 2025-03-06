@@ -5,6 +5,7 @@
         "price": "19.99",
         "category": "Men's Costumes",
         "description": "A spooky skeleton costume for all ages.",
+        "Size": "Large",
         "img_name": "Images/skeleton-costume2 200x.jpg"
     },
     {
@@ -13,6 +14,7 @@
         "price": "19.99",
         "category": "Men's Costumes",
         "description": "A dark and ominous Grim Reaper costume.",
+        "Size": "Medium",
         "img_name": "Images/grim repaer.jpg"
     },
     {
@@ -21,6 +23,7 @@
         "price": "24.99",
         "category": "Men's Costumes",
         "description": "A grotesque and grisly Zombie costume.",
+        "Size": "Large",
         "img_name": "Images/zombie costume.jpg"
     },
     {
@@ -29,6 +32,7 @@
         "price": "24.99",
         "category": "Men's Costumes",
         "description": "An aristocratic Vampire costume",
+        "Size": "Small",
         "img_name": "Images/vampire costume.jpg"
     },
     {
@@ -37,6 +41,7 @@
         "price": "14.99",
         "category": "Children's Costumes",
         "description": "A spunky baseball costume",
+        "Size": "Small",
         "img_name": "Images/baseball costume.jpg"
     },
     {
@@ -45,6 +50,7 @@
         "price": "14.99",
         "category": "Children's Costumes",
         "description": "An adorable witch costume",
+        "Size": "Medium",
         "img_name": "Images/witchCostume.jpg"
     },
     {
@@ -53,6 +59,7 @@
         "price": "29.99",
         "category": "Women's Costumes",
         "description": "A rebellious pirate costume",
+        "Size": "Medium",
         "img_name": "Images/pirate costume.jpg"
     },
     {
@@ -61,6 +68,7 @@
         "price": "34.99",
         "category": "Women's Costumes",
         "description": "A twisted clown costume",
+        "Size": "Small",
         "img_name": "Images/twistedClown.jpg"
     }
 ]

@@ -188,9 +188,8 @@ header {
 
         & h3 {
             margin-top: 0px;
+            margin-bottom: 0px;
             border: solid 1px #BBBBBB;
-            border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px;
         }
     }
 }
