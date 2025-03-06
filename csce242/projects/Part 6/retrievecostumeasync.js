@@ -1,5 +1,5 @@
 const getCostumes = async () => {
-    const url = "https://raw.githubusercontent.com/henryph0630/henryph0630.github.io/main/csce242/projects/Part%206/Part%204/costumes.json";
+    const url = "https://raw.githubusercontent.com/henryph0630/henryph0630.github.io/main/csce242/projects/Part%206/costumes.json";
     
     try {
         const response = await fetch(url);
