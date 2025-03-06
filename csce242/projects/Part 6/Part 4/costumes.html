@@ -24,11 +24,16 @@
         </div>
 
         <nav id="main-nav">
-            <a href="homepage.html">Home</a>
-            <a href="costumes.html">Costumes</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="jobs.html">Jobs</a>
-            <a href="blog.html">Blog</a>
+            <button id="hamburger-menu" aria-label="Open menu">
+                ☰
+            </button>
+            <div id="nav-links" class="nav-closed">
+                <a href="homepage.html">Home</a>
+                <a href="costumes.html">Costumes</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="jobs.html">Jobs</a>
+                <a href="blog.html">Blog</a>
+            </div>
         </nav>
 
         <div id="costume-demo-header" class="column four">
@@ -64,12 +69,12 @@
             </section>
 
             <div class="column three gallery" id="costume-gallery">
-                
+                    <script src = "retrievecostumeasync.js"></script>
             </div>
         </div>
 
     </main>
 
-    
+    <script src="hamburgermenu.js"></script>
 </body>
 </html>

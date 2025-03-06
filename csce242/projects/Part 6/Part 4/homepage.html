@@ -25,19 +25,25 @@
         </div>
 
         <nav id="main-nav">
-            <a href="homepage.html">Home</a>
-            <a href="costumes.html">Costumes</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="jobs.html">Jobs</a>
-            <a href="blog.html">Blog</a>
+            <button id="hamburger-menu" aria-label="Open menu">
+                ☰
+            </button>
+            <div id="nav-links" class="nav-closed">
+                <a href="homepage.html">Home</a>
+                <a href="costumes.html">Costumes</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="jobs.html">Jobs</a>
+                <a href="blog.html">Blog</a>
+            </div>
         </nav>
+
     </header>
 
     <main id="content-home">
         <div class="column two">
             <section>
                 <h2>
-                    Specials
+                    <h2><a href="costumes.html">Specials</a></h2>
                 </h2>
 
                 <img src="Images/group special.jpg" alt="">
@@ -61,7 +67,7 @@
             </section>
 
             <section>
-                <h2>Deals</h2>
+                <h2><a href="costumes.html">Deals</a></h2>
                 <img src="Images/deals.jpg" alt="">
             </section>
 
@@ -72,6 +78,6 @@
         </div>
     </main>
 
-
+    <script src="hamburgermenu.js"></script>
 </body>
 </html>

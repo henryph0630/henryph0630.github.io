@@ -1,6 +1,6 @@
 [
     {
-        "_id": 1,
+        "id": 1,
         "name": "Skeleton Costume",
         "price": "19.99",
         "category": "Men's Costumes",
@@ -8,7 +8,7 @@
         "img_name": "Images/skeleton-costume2 200x.jpg"
     },
     {
-        "_id": 2,
+        "id": 2,
         "name": "Grim Reaper",
         "price": "19.99",
         "category": "Men's Costumes",
@@ -16,7 +16,7 @@
         "img_name": "Images/grim repaer.jpg"
     },
     {
-        "_id": 3,
+        "id": 3,
         "name": "Zombie",
         "price": "24.99",
         "category": "Men's Costumes",
@@ -24,7 +24,7 @@
         "img_name": "Images/zombie costume.jpg"
     },
     {
-        "_id": 4,
+        "id": 4,
         "name": "Vampire",
         "price": "24.99",
         "category": "Men's Costumes",
@@ -32,7 +32,7 @@
         "img_name": "Images/vampire costume.jpg"
     },
     {
-        "_id": 5,
+        "id": 5,
         "name": "Baseball Costume",
         "price": "14.99",
         "category": "Children's Costumes",
@@ -40,15 +40,15 @@
         "img_name": "Images/baseball costume.jpg"
     },
     {
-        "_id": 6,
+        "id": 6,
         "name": "Witch Costume",
         "price": "14.99",
         "category": "Children's Costumes",
         "description": "An adorable witch costume",
-        "img_name": "Images/baseball costume.jpg"
+        "img_name": "Images/witchCostume.jpg"
     },
     {
-        "_id": 7,
+        "id": 7,
         "name": "Pirate Costume",
         "price": "29.99",
         "category": "Women's Costumes",
@@ -56,7 +56,7 @@
         "img_name": "Images/pirate costume.jpg"
     },
     {
-        "_id": 8,
+        "id": 8,
         "name": "Clown Costume",
         "price": "34.99",
         "category": "Women's Costumes",
